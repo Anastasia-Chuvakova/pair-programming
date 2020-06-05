@@ -18,7 +18,7 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100px;
+  height: 150px;
   background: #e1e1e1;
 }
 
@@ -59,12 +59,13 @@ header {
 }
 
 .drink-image {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
 }
 
 .random-button {
   width: 100px;
   height: 100px;
+  border-radius: 50%;
 }
 /*# sourceMappingURL=main.css.map */
