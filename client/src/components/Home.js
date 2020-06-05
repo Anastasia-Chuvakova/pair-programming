@@ -35,13 +35,18 @@ function Home() {
         </header>
         <main className="main">
           <div className="drink-image-container">
-            <img
-              className="drink-image"
-              src="http://place-puppy.com/public-images/index-page/image1/210x280-lg.jpg"
-              alt=""
-            />
-            <button className="random-button">Random</button>
-            <button className="random-button">All Drinks</button>
+            <div className="img-container">
+              <img
+                className="drink-image"
+                src="http://place-puppy.com/public-images/index-page/image1/210x280-lg.jpg"
+                alt=""
+              />
+            </div>
+
+            <div className="button-container">
+              <button className="random-button">Random</button>
+              <button className="random-button">All Drinks</button>
+            </div>
           </div>
         </main>
       </div>
