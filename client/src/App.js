@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 import "./App.css";
 import DrinkName from "./components/DrinkName";
 import Home from "./components/Home";
+import axios from "axios";
 
+const refUrl = "https://www.thecocktaildb.com/api/json/v1/1/random.php";
 class App extends React.Component {
     // state
     state = {
