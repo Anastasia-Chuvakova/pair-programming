@@ -24,29 +24,10 @@ class RandomDrink extends React.Component {
       })
       .catch((err) => console.log(err));
   };
-  // grab videos by ID
-  // getVideo = (videoId) => {
-  //   axios.get(`${refUrl}${videoId}/${apiKey}`).then((response) => {
-  //     console.log("Video data is retrieved");
-  //     this.setState({ mainVideo: response.data });
-  //     console.log(this.state.mainVideo);
-  //   });
-  // };
-  // init
   componentDidMount() {
     console.log("comp mounted");
-    this.getRandomDrink(); // call getPosts() method, many posts
-    // this.getVideo("1ae5jruuoc4q"); // call getPost() method, single post
+    this.getRandomDrink();
   }
-
-
-  // // check if video needs to be changed
-  // componentDidUpdate(prevProps) {
-  //   console.log(prevProps.match.params.id);
-  //   console.log(this.props.match.params.id);
-  //   if (prevProps.match.params.id !== this.props.match.params.id)
-  //     this.getVideo(this.props.match.params.id);
-  // }
 
   render() {
     return (
